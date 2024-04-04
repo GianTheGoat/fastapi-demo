@@ -18,8 +18,8 @@ def read_root():
     return {"Hello": "World"}
 
 Capp-post ("/")
-def another_zone_apex() =
-return {"Area code": "434", "country": "USA", "airport": "CHO"}
+def another_zone_apex():
+    return {"Area code": "434", "country": "USA", "airport": "CHO"}
 
 # Endpoints and Methods
 # /blah - endpoint
