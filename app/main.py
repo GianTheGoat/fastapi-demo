@@ -17,9 +17,9 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 
-@app.get("/")
+@app.get("/Nba")
 def another_zone_apex():
-    return {"Area code": "434", "country": "USA", "airport": "CHO"}
+    return {"LeBron James": "23", "Stephen Curry": "30", "Nikola Jokic": "15"}
 
 # Endpoints and Methods
 # /blah - endpoint
